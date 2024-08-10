@@ -11,7 +11,11 @@
     $b = $a;
     $b +=17;
 
+    $c= &$d;
+    $d=12;
+
     echo "Valor de a: $a<br/>Valor de b: $b";
+    echo "Valor de c: $c<br/>Valor de d: $d";
     ?>
 </body>
 </html>
